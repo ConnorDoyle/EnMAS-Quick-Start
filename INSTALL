@@ -10,9 +10,9 @@ Next SBT will read the build.sbt file in this directory and download all of the 
 
 Finally, SBT will search the classpath for Main methods.  In this project, there are three programs to choose from:
 
+- Server
+- Client
 - Bundler
-- ServerManager
-- ClientManager
 
 In order to run experiments there needs to be at least one instance each of ServerManager and ClientManager running on two computers that can reach each other on the network or the same machine.
 
