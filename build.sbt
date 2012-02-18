@@ -19,7 +19,7 @@ libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-swing" % "2.9.1",
   "org.scala-lang" % "scala-compiler" % "2.9.1",
   "org.scala-lang" % "scala-library" % "2.9.1",
-  "org.enmas" % "enmas_2.9.1" % "0.6"
+  "org.enmas" % "enmas_2.9.1" % "0.6.1"
 )
 
 unmanagedClasspath in Runtime <+= (baseDirectory) map {
