@@ -5,3 +5,7 @@ object Server extends App {
 object Client extends App {
   org.enmas.client.ClientManager.main(Array(""))
 }
+
+object Bundler extends App {
+  org.enmas.bundler.Bundler.main(Array(""))
+}
