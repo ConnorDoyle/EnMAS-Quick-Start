@@ -16,7 +16,7 @@ case class SimplePOMDP extends POMDP (
   actionsFunction = (_)  ⇒ Set('win, 'lose),
 
   transitionFunction = (state, _)  ⇒ {
-    val t = state.getAs[Int]("time") orElse 0
+    val t = state.getAs[Int]("time") getOrElse 0
     State("time"  → (t+1))
   },
 
