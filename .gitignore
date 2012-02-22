@@ -1,5 +1,5 @@
 target**
-project**
+project/target**
 **.class
 **.DS_STORE
 lib_managed**
