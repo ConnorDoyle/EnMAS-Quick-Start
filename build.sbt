@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-library" % "2.9.1",
   "org.scala-lang" % "scala-swing" % "2.9.1",
   "org.scala-lang" % "scala-compiler" % "2.9.1",
-  "org.enmas" % "enmas_2.9.1" % "0.6.4",
+  "org.enmas" % "enmas_2.9.1" % "0.6.5",
   "com.typesafe.akka" % "akka-actor" % "2.0-M3",
   "com.typesafe.akka" % "akka-remote" % "2.0-M3"
 )
