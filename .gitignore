@@ -3,4 +3,5 @@ project/target**
 **.class
 **.DS_STORE
 lib_managed**
-
+user/*/*.class
+user/*/*.jar
